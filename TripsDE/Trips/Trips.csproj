@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\trips.csv" />
+    <None Remove="Images\DataFactory.png" />
+    <None Remove="Images\FromExcelToPowerBI.jpg" />
+    <None Remove="Images\QueryLogo.png" />
+    <None Remove="Images\SynapseAnalytics.png" />
+    <None Remove="Images\UserIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Files\trips.csv" />
+    <Resource Include="Images\DataFactory.png" />
+    <Resource Include="Images\FromExcelToPowerBI.jpg" />
+    <Resource Include="Images\QueryLogo.png" />
+    <Resource Include="Images\SynapseAnalytics.png" />
+    <Resource Include="Images\UserIcon.png" />
+  </ItemGroup>
+
+</Project>
