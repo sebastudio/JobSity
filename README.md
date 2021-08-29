@@ -1,7 +1,7 @@
 # JobSity
 Data Engineering Challenge
 
-That's a desktop application was developed with Visual Satudio 2019 in C#. You must use this IDE to open and run the project.
+This desktop application was developed with Visual Satudio 2019 in C#. You must use this IDE to open and run the project.
 
 But you don't need really open the project There is a video "JobSit3.mp4" which demonstrates the app.
 
